@@ -25,5 +25,10 @@ fetch(apiUrl)
     });
 
 //Modal
+function openModal() {
+    const modal = document.getElementById("modal");
+    modal.style.display = "block";
+}
 
-
+const openModalButton = document.getElementById("openModal");
+openModalButton.addEventListener("click", openModal);
